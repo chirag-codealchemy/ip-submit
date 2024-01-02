@@ -1,7 +1,0 @@
-{
-  "name": "ip-submit",
-  "version": "0.0.1",
-  "scripts": {
-    "build": "node generateReadMe.js"
-  }
-}
