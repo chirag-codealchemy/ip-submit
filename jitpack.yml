@@ -2,5 +2,5 @@ before_install:
   - git lfs pull
 
 install:
-  - VERSION="-Dversion=5.16.10.17707"
-  - mvn install:install-file -Dfile=libs/mobilertc.aar -DgroupId=com.zoom-community.sdk -DartifactId=mobilertc $VERSION -Dpackaging=aar -DgeneratePom=true
+  - VERSION="-Dversion=5.17.6.19119"
+  - mvn install:install-file -Dfile=mobilertc.aar -DgroupId=com.zoom-community.sdk -DartifactId=mobilertc $VERSION -Dpackaging=aar -DgeneratePom=true
